@@ -1,100 +1,31 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+This website is a work day scheduler that helps you keep track of your daily tasks. You can enter your to-do list for the day, and the website will highlight which tasks are past due, which are due soon, and which have already been completed.
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Getting Started
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+To use this website, simply visit the following URL: https://darylbg.github.io/work-day-scheduler/. You can then enter your tasks for the day by clicking on the text boxes next to each hour of the work day.
 
-## User Story
+To view the source code, see here: https://github.com/darylbg/work-day-scheduler
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+The live website page will look similar to this: [!Screenshot](assets/images/05-third-party-apis-homework-demo.gif)
 
-## Acceptance Criteria
+## Features
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+- Color-coded task entries: Tasks that are past due will be highlighted in red, tasks that are due soon will be highlighted in yellow, and tasks that have already been completed will be highlighted in green.
+- Local storage: Your task entries will be saved to your browser's local storage, so you can close the website and come back to it later without losing your progress.
+- Mobile-friendly: The website is designed to work well on mobile devices, so you can use it on-the-go.
 
-The following animation demonstrates the application functionality:
+## Technologies Used
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+This website was built using HTML, CSS, and JavaScript.
 
-## Grading Requirements
+## Contributing
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
-This Challenge is graded based on the following criteria:
+## License
 
-### Technical Acceptance Criteria: 40%
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
