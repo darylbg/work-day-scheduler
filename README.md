@@ -8,7 +8,7 @@ To use this website, simply visit the following URL: https://darylbg.github.io/w
 
 To view the source code, see here: https://github.com/darylbg/work-day-scheduler
 
-The live website page will look similar to this: [!screenshot](assets/images/05-third-party-apis-homework-demo.gif)
+The live website page will look similar to this: ![screenshot](assets/images/05-third-party-apis-homework-demo.gif)
 
 ## Features
 
